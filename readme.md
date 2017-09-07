@@ -1,4 +1,9 @@
-# Test the code using `Postman`
+## Spring boot XML example (using JAXB)
+This project shows how Spring boot works with XML out of the box. Without additional configuration or setup.
+
+All you need is add annotations `@XmlRootElement` to class and `@XmlElement` to fields without getter and target class will be serialized/deserialized automatically.
+
+## Test the code using `Postman`
 
 ### Generate random contact:
 Address: `http://localhost:8080/contact/random`

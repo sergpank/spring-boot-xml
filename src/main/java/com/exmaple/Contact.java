@@ -20,11 +20,15 @@ import java.util.Random;
 public class Contact implements Serializable {
     @XmlElement
     private Long id;
+
     @XmlElement
     private int version;
+
     @Getter private String firstName;
+
     @XmlElement
     private String lastName;
+
     @XmlElement
     private Date birthDate;
 
